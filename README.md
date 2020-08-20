@@ -1,2 +1,8 @@
 # tic-tac-toe
-made in java 
+made with java
+
+to compile
+`javac main.java`
+
+to run 
+`java main`
