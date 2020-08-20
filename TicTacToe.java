@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class TicTacToe {
@@ -25,6 +26,9 @@ public class TicTacToe {
 
         placePiece(gameBoard, position, "player");
         
+        Random rand = new Random();
+        int compPosition = rand.nextInt(9) + 1;
+        placePiece(gameBoard, compPosition, "comp");
 
         printGameBoard(gameBoard);
     }
